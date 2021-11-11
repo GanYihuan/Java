@@ -12,7 +12,7 @@ public class Test_01 {
     }
   }
 
-  // 可变参数放最后
+  // 可变参数放最后, 可传递0-多个参数
   public void add(double d, int... i) {
   }
 }
