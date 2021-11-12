@@ -18,6 +18,6 @@ public class Person {
   }
 
   public void showInfo() {
-    System.err.println(name + age);
+    System.out.println(name + age);
   }
 }
