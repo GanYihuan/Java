@@ -21,4 +21,13 @@ public class KK extends Kid{
     KK k = new KK(1);
     k.employeed();
   }
+  /*
+  this: 访问本类中属性(方法), 如果无该属性则从父类中查找
+  super: 访问父类属性(方法)
+
+  this: 调用本类构造器, 必须放置首行
+  super: 调用父类构造器, 放置子类构造器首行
+
+  this: 表示当前对象
+  */
 }
