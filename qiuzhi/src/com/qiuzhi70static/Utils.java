@@ -8,11 +8,18 @@ public class Utils {
   static int test = 10;
   public static int count;
 
+  /**
+   * static 方法内部不能有 this & super
+   */
   public static void showCount() {
-    // static 方法内部不能有 this 也能有 super
     System.out.println("new: " + Utils.count + " ...");
   }
 
+  /**
+   * static: 类名加方法名就可以调用
+   * @param s
+   * @return
+   */
   public static boolean isEmpty(String s) {
     boolean flag = false;
     if(s != null && s.equals("")) {

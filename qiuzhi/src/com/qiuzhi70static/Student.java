@@ -12,6 +12,6 @@ public class Student {
     Utils u4 = new Utils();
     Utils u5 = new Utils();
 
-    Utils.showCount();
+    Utils.showCount(); // static: 类名加方法名就可以调用
   }
 }
