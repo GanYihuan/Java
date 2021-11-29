@@ -5,6 +5,17 @@ public class TestC {
     int i = 0;
     // java.lang.ArithmeticException
     // 数学计算错误
-    System.out.println(3/i);
+    try {
+      System.out.println("1");
+      System.out.println(3/i);
+      System.out.println("2");
+    } catch(Exception e) {
+      System.out.println("3");
+      System.out.println(e.getMessage());
+    } finally {
+      // finally 一定执行的代码
+      System.out.println("finish");
+    }
+    System.out.println("ok");
   }
 }
