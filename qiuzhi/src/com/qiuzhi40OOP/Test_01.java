@@ -1,6 +1,6 @@
 package com.qiuzhi40OOP;
 
-public class Test_B {
+public class Test_01 {
   static int t; // static 方法里, 成员变量需要 static 修饰
 
   public static void main(String[] args) {
