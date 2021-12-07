@@ -9,8 +9,9 @@ public class Test_B {
     p.name = "zhangsha";
     System.out.println(Person.sex); // static 对象调用
     p.showName("lisi");
-    p.age = 11;
     t = p.getAge();
     System.err.println(t);
+
+    new Person().showName("niming"); // 匿名对象
   }
 }

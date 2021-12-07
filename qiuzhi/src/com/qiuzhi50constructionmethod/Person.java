@@ -9,12 +9,11 @@ public class Person {
     name = n;
   }
 
+  // 构造器重载
   public Person(int a) {
-
   }
 
   public Person(String n) {
-
   }
 
   public void showInfo() {

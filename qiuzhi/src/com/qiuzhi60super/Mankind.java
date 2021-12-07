@@ -3,8 +3,7 @@ package com.qiuzhi60super;
 public class Mankind {
   int sex;
 
-  // 当现实显示构造方法时, 类就没有默认的无参构造了
-  public Mankind(int sex) {
+  public Mankind(int sex) { // 当现实显示构造方法时, 类就没有默认的无参构造了
     this.sex = sex;
     System.out.println("mankind");
   }

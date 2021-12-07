@@ -1,9 +1,8 @@
 package com.qiuzhi60super;
 
-public class KK extends Kid{
-  // 父类只有有参构造时, 子类必须显示构建一个构造来调用父类有参构造, 切第一行
+public class KK extends Mankind{
   public KK(int sex) {
-    super(sex);
+    super(sex); // 父类只有有参构造时, 子类必须显示构建一个构造来调用父类有参构造, 切第一行
   }
 
   public void test() {
@@ -11,8 +10,7 @@ public class KK extends Kid{
     super.manorwomen();
   }
 
-  // 重写父类 employeed()
-  public void employeed() {
+  public void employeed() { // 重写父类 employeed()
     super.employeed(); // 调用父类employeed()
     System.out.println("kk employeed");
   }

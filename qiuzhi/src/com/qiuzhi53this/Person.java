@@ -9,13 +9,11 @@ public class Person {
   }
 
   public Person(int age) {
-    this(); // 调用 public Person(){}, this(); 必须放置方法首行
-    this.age = age;
+    this(); // 调用 public Person(){}, this()必须放置方法首行
   }
 
   public Person(String name) {
     this(1); // 调用 public Person(int age) {}
-    this.name = name;
   }
 
   public Person(int age, String name) {
@@ -29,9 +27,5 @@ public class Person {
 
   public void changeName(String name) {
     this.setName(name); // 调用 setName()
-  }
-
-  public void showInfo() {
-    System.out.println("name: " + this.name + ", age: " + this.age);
   }
 }
