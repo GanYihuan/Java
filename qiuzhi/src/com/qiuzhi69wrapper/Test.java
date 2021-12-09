@@ -1,7 +1,5 @@
 package com.qiuzhi69wrapper;
 
-import java.util.Date;
-
 public class Test {
   public static void main(String[] args) {
     Integer i = new Integer(1);
@@ -11,7 +9,7 @@ public class Test {
     int l2 = i2.intValue(); // 拆箱
     System.out.println(l2);
 
-    Integer i3 = 3; // 自动装箱
+    Integer i3 = 3; // 自动装箱,
     int l3 = i3;
     System.out.println(l3);
 

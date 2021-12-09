@@ -7,10 +7,6 @@ public class Student {
     System.out.println(Utils.test);
 
     Utils u1 = new Utils();
-    Utils u2 = new Utils();
-    Utils u3 = new Utils();
-    Utils u4 = new Utils();
-    Utils u5 = new Utils();
 
     Utils.showCount(); // static: 类名加方法名就可以调用
   }
