@@ -1,7 +1,5 @@
 package com.qiuzhi76Template;
 
-import javax.xml.transform.SourceLocator;
-
 /**
  * 模板设计模式
  * 抽象类作为模板, 子类在抽象类基础上扩展
@@ -13,13 +11,11 @@ public abstract class Template {
     long start = System.currentTimeMillis();
     code();
     long end = System.currentTimeMillis();
-
     System.out.println("code() run time: " + (end - start));
   }
 }
 
 class TestTmp extends Template {
-
   @Override
   public void code() {
     // TODO Auto-generated method stub

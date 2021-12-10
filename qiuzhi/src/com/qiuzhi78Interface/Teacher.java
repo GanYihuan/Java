@@ -7,7 +7,6 @@ public class Teacher extends Person implements Cooking, Sing {
     super.age = 28;
     super.name = "ganyihuan";
     super.sex = 1;
-
     this.course = "math";
   }
 

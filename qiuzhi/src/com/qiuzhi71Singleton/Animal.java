@@ -5,7 +5,6 @@ package com.qiuzhi71Singleton;
  */
 public abstract class Animal {
   public abstract void test(); // 只要有一个抽象方法, 类必须是抽象类
-
   public abstract void move();
 }
 
